@@ -1,20 +1,19 @@
 package board;
 
 import org.openqa.selenium.support.PageFactory;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import board.pages.HomePage;
+import board.pages.landing.StartPage;
 
 public class RegistryTest extends TestBase {
 
-  private HomePage homepage;
+  private StartPage homepage;
 
   @BeforeMethod
   public void initPageObjects() {
-    homepage = PageFactory.initElements(driver, HomePage.class);
+    homepage = PageFactory.initElements(driver, StartPage.class);
   }
 
   @Test

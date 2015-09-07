@@ -1,7 +1,7 @@
 package board.util;
 
 import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.Platform;
+//import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
